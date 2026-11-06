@@ -7,11 +7,11 @@
     "dev:server": "cd server && npm run dev",
     "dev:client": "cd client && npm run dev",
     "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm install && npm run build",
     "build:client": "cd client && npm run build",
     "start": "cd server && npm start"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2",
-    "vite": "^8.3.6"
+    "concurrently": "^9.1.2"
   }
 }
